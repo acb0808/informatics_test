@@ -141,7 +141,6 @@ print(cnt)
 
 ## 정수 2개를 입력받아 공약수 출력하기
 1. 최대공약수의 약수를 출력하는 방법
-2. while과 나머지를 이용한 방법
 ```py
 a,b = map(int, input().split())
 while b > 0:
@@ -150,6 +149,7 @@ for i in range(1, a+1):
     if a%i == 0:
         print(i)
 ```
+2. while과 나머지를 이용한 방법
 ```py
 a,b = map(int, input().split())
 if a < b:
