@@ -11,7 +11,7 @@
 ## 문제 목록
 
 - 링크 틀릭시 `코드업` 사이트로 연결됩니다. 
-- 부교재에 없는 문제 같은 경우(약수 관련)는 직접 만든 문제집으로 연결됩니다. `goorm.io` 사이트입니다.
+- 부교재에 없는 문제 같은 경우(약수 관련)는 직접 만든 문제집으로 연결됩니다. `goorm.io` 사이트입니다
 
 | 문제 이름 | 문제출처 | 출처상세 | 유형 |
 |  :---:   | :---: | :---: | :---:|
@@ -146,6 +146,7 @@ print(cnt)
 ## 정수 2개를 입력받아 공약수 출력하기
 -  [구름 IDE에서 채점해보기](https://level.goorm.io/exam/189913/%EA%B3%B5%EC%95%BD%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0/quiz/1)
 1. 최대공약수의 약수를 출력하는 방법
+2. while과 나머지를 이용한 방법
 ```py
 a,b = map(int, input().split())
 while b > 0:
@@ -154,7 +155,6 @@ for i in range(1, a+1):
     if a%i == 0:
         print(i)
 ```
-2. while과 나머지를 이용한 방법
 ```py
 a,b = map(int, input().split())
 if a < b:
@@ -179,3 +179,4 @@ while b > 0:
     a, b = b, a % b
 print(a)
 ```
+-  [구름 IDE에서 채점해보기](https://level.goorm.io/exam/189914/%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0/quiz/1)
