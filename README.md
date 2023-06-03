@@ -10,7 +10,9 @@
 ---
 ## 문제 목록
 
-링크 틀릭시 `코드업` 사이트로 연결됩니다. 
+- 링크 틀릭시 `코드업` 사이트로 연결됩니다. 
+- 부교재에 없는 문제 같은 경우(약수 관련)는 직접 만든 문제집으로 연결됩니다. `goorm.io` 사이트입니다.
+
 | 문제 이름 | 문제출처 | 출처상세 | 유형 |
 |  :---:   | :---: | :---: | :---:|
 |[출력하기(04)](https://codeup.kr/problem.php?id=6004)|부교재|12p| A형 |
@@ -21,9 +23,9 @@
 |[ 문자 1개 입력받아 알파벳 출력하기 ](https://codeup.kr/problem.php?id=6074)| 부교재 | 152p | A형 |
 |[ 짝수 합 구하기 ](https://codeup.kr/problem.php?id=6077)| 부교재 | 158p | B형 |
 |[ 3 6 9 게임의 왕이 되자 ](https://codeup.kr/problem.php?id=6082)| 부교재 | 168p | B형 |
-| 정수 1개 입력받아 약수 출력하기| 수업시간 | 수업 | A와 B형 |
-| 정수 1개를 입력받아 약수의 갯수 출력하기| 수업시간 | 수업 | B형 |
-| 정수 2개를 입력받아 공약수 출력하기| 수업시간 | 수업 | A형 |
+| [정수 1개 입력받아 약수 출력하기](https://level.goorm.io/exam/189912/%EC%95%BD%EC%88%98%EC%9D%98-%EA%B0%AF%EC%88%98/quiz/1)| 수업시간 | 수업 | A와 B형 |
+| [정수 1개를 입력받아 약수의 갯수 출력하기](https://level.goorm.io/exam/189913/%EA%B3%B5%EC%95%BD%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0/quiz/1)| 수업시간 | 수업 | B형 |
+| [정수 2개를 입력받아 공약수 출력하기](https://level.goorm.io/exam/189914/%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0/quiz/1)| 수업시간 | 수업 | A형 |
 
 ## 유형 A
 - 출력하기(04)
@@ -122,6 +124,7 @@ for i in range(1, n+1) :
 ```
 
 ## 정수 1개 입력받아 약수 출력하기
+- [구름 IDE에서 채점해보기](https://level.goorm.io/exam/189911/%EC%95%BD%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0/quiz/1)
 ```py
 n = int(input())
 for i in range(1, n+1):
@@ -130,6 +133,7 @@ for i in range(1, n+1):
 ```
 
 ## 정수 1개를 입력받아 약수의 갯수 출력하기
+- [구름 IDE에서 채점해보기](https://level.goorm.io/exam/189912/%EC%95%BD%EC%88%98%EC%9D%98-%EA%B0%AF%EC%88%98/quiz/1)
 ```py
 n = int(input())
 cnt = 0
@@ -140,6 +144,7 @@ print(cnt)
 ```
 
 ## 정수 2개를 입력받아 공약수 출력하기
+-  [구름 IDE에서 채점해보기](https://level.goorm.io/exam/189913/%EA%B3%B5%EC%95%BD%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0/quiz/1)
 1. 최대공약수의 약수를 출력하는 방법
 2. while과 나머지를 이용한 방법
 ```py
@@ -174,3 +179,4 @@ while b > 0:
     a, b = b, a % b
 print(a)
 ```
+-  [구름 IDE에서 채점해보기](https://level.goorm.io/exam/189914/%EC%B5%9C%EB%8C%80%EA%B3%B5%EC%95%BD%EC%88%98-%EA%B5%AC%ED%95%98%EA%B8%B0/quiz/1)
