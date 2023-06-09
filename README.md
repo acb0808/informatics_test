@@ -157,13 +157,18 @@ for i in range(1, a+1):
 2. while과 나머지를 이용한 방법
 ```py
 a,b = map(int, input().split())
-if a < b:
-    a,b = b,a
 i = 1
-while a >= i:
+ile a >= i:
     if a % i == 0 and b % i == 0:
         print(i)
     i += 1
+```
+3. for 문을 이용하는 방법
+```py
+a,b = map(int, input().split())
+for i in range(1, a+1):
+    if a % i == 0 and b % i == 0:
+        print(i)
 ```
 
 # 코멘트
